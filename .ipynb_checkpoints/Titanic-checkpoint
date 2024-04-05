@@ -1,0 +1,91 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "8975a6ca-3db8-46f7-be16-4736653b9cbc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Collecting seabornNote: you may need to restart the kernel to use updated packages.\n",
+      "\n",
+      "  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)\n",
+      "Requirement already satisfied: numpy!=1.24.0,>=1.20 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from seaborn) (1.26.3)\n",
+      "Requirement already satisfied: pandas>=1.2 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from seaborn) (2.2.0)\n",
+      "Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from seaborn) (3.8.2)\n",
+      "Requirement already satisfied: contourpy>=1.0.1 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.2.0)\n",
+      "Requirement already satisfied: cycler>=0.10 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (0.12.1)\n",
+      "Requirement already satisfied: fonttools>=4.22.0 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (4.47.2)\n",
+      "Requirement already satisfied: kiwisolver>=1.3.1 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.4.5)\n",
+      "Requirement already satisfied: packaging>=20.0 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (23.2)\n",
+      "Requirement already satisfied: pillow>=8 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (10.2.0)\n",
+      "Requirement already satisfied: pyparsing>=2.3.1 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (3.1.1)\n",
+      "Requirement already satisfied: python-dateutil>=2.7 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (2.8.2)\n",
+      "Requirement already satisfied: pytz>=2020.1 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from pandas>=1.2->seaborn) (2024.1)\n",
+      "Requirement already satisfied: tzdata>=2022.7 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from pandas>=1.2->seaborn) (2023.4)\n",
+      "Requirement already satisfied: six>=1.5 in c:\\users\\sansk\\appdata\\local\\programs\\python\\python312\\lib\\site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.4->seaborn) (1.16.0)\n",
+      "Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)\n",
+      "   ---------------------------------------- 0.0/294.9 kB ? eta -:--:--\n",
+      "   - -------------------------------------- 10.2/294.9 kB ? eta -:--:--\n",
+      "   -------- ------------------------------ 61.4/294.9 kB 825.8 kB/s eta 0:00:01\n",
+      "   ------------------------------- -------- 235.5/294.9 kB 2.1 MB/s eta 0:00:01\n",
+      "   ---------------------------------------- 294.9/294.9 kB 2.3 MB/s eta 0:00:00\n",
+      "Installing collected packages: seaborn\n",
+      "Successfully installed seaborn-0.13.2\n"
+     ]
+    }
+   ],
+   "source": [
+    "pip install seaborn\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "2710e237-886f-476b-8707-3d1f98c03513",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import seaborn as sns\n",
+    "import matplotlib.pyplot as plt\n",
+    "import warnings\n",
+    "warnings.filterwarnings('ignore')\n",
+    "%matplotlib inline"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8f337313-0cc3-4921-b3d2-19d333b382c2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
